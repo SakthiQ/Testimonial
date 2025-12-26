@@ -1,7 +1,10 @@
 # Testimonial
 This project is a simple web-based testimonial management application designed to help businesses, creators, and product owners collect, manage, and display customer testimonials with minimal effort.
+
 The application allows a user to sign up and access a dashboard where they can create Spaces, with each space representing a website, landing page, or product. For every space, the system generates a public review link that can be shared with customers. Customers can use this link to submit text or video testimonials without creating an account.
 All submitted testimonials are stored in a pending state. Through the dashboard, the space owner can review, approve, or reject testimonials. Only approved testimonials are made publicly visible.
+
 The application also provides a public embed API that allows approved testimonials to be displayed on any external website. By adding a small JavaScript snippet, users can automatically showcase their selected testimonials, which stay updated without manual changes.
+
 The backend is built as a single, lightweight service that handles authentication, space management, testimonial submission, approval workflows, and public read-only access for embeds. The system is intentionally kept simple to support fast development while remaining clean, maintainable, and easy to extend in the future.
 In short, this project turns customer feedback into reusable website content through a clean dashboard, controlled approval flow, and easy-to-use embeds.
